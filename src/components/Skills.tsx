@@ -15,7 +15,7 @@ type ContentType = HTMLDivElement;
 const Skills = () => {
 	const mainRef = useRef<HTMLElement>(null);
 	const contentRefs = useRef<ContentType[]>([]);
-  const titleRef = useRef<HTMLHeadingElement>(null);
+  	const titleRef = useRef<HTMLHeadingElement>(null);
 
 	const addToRef = (el: ContentType) => {
 		if (el && !contentRefs.current.includes(el)) {
@@ -49,6 +49,15 @@ const Skills = () => {
 	useGSAP(
 		() => {
 			
+			gsap.from(titleRef.current, {
+				x: 50,
+				opacity: 0,
+				duration: 0.5,
+				scrollTrigger: {
+					trigger: titleRef.current,
+					start: "top 90%",
+				},
+			})
 
 			contentRefs.current.forEach((content, index) => {
 				gsap.from(content, {
