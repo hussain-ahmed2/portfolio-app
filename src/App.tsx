@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="">
       <Header />
-      <div className="max-w-screen-xl mx-auto flex flex-col gap-2 text-neutral-800">
+      <div className="max-w-screen-xl mx-auto flex flex-col gap-2 text-neutral-800 overflow-hidden">
         <Home />
         <About />
         <Skills />
