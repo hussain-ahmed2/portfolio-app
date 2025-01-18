@@ -9,7 +9,7 @@ const About = () => {
         {/* Image Section */}
         <div className="text-center md:text-left">
           <img
-            src="https://via.placeholder.com/400"
+            src='./profile-about.svg'
             alt="Hussain Ahmed"
             className="rounded-lg shadow-lg mx-auto md:mx-0 w-3/4 md:w-full"
           />

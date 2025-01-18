@@ -12,21 +12,21 @@ const Projects = () => {
       description:
         "A fun and interactive platform to explore and use emojis, built with Next.js and Tailwind CSS.",
       link: "#",
-      image: "https://via.placeholder.com/300",
+      image: "./project-alt.svg",
     },
     {
       title: "Seasonal Events Website",
       description:
         "A platform showcasing events across all six seasons of Bangladesh, with user reviews and rating features.",
       link: "#",
-      image: "https://via.placeholder.com/300",
+      image: "./project-alt.svg",
     },
     {
       title: "Weather App",
       description:
         "A simple weather forecasting app that provides real-time weather updates, built with React.",
       link: "https://weather-app-by-hussain.netlify.app/",
-      image: "https://via.placeholder.com/300",
+      image: "./project-alt.svg",
     },
   ];
   return (
