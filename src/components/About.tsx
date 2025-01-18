@@ -11,7 +11,7 @@ const About = () => {
 	useGSAP(
 		() => {
 			const aboutTl = gsap.timeline({
-				delay: 0.5,
+				delay: 0.2,
 				scrollTrigger: {
 					trigger: mainRef.current,
 					start: "top 90%",
